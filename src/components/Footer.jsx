@@ -1,9 +1,9 @@
-export const Footer = (y, n, id) => {
+export const Footer = (props) => {
   return;
   {
     <div className="mt-3">
       <p className="text-secondary text-center">
-        copyright © {y} {n} {id}
+        copyright © {props.year} {props.fullName} {props.studentId}
       </p>
     </div>;
   }
